@@ -1,0 +1,29 @@
+{
+  "name": "webcam-security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "clear && node src/index.js",
+    "client": "cd ./client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "camera-capture": "^0.0.11",
+    "img-diff-js": "^0.5.2",
+    "jimp": "^0.16.1",
+    "node-fetch": "^3.2.3",
+    "node-webcam": "^0.8.0",
+    "pixelmatch": "^5.2.1",
+    "pngjs": "^6.0.0",
+    "puppeteer": "13.6.0",
+    "puppeteer-screen-recorder": "^2.0.2",
+    "puppeteer-stream": "^2.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
